@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Abdul sami">
+    <meta name="discription" content="Blog"
+    <meta name="keyword" content="keyword,keyword1,keyword2,keyword3">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="applefav.svg" type="image/x-icon">
+</head>
+<body>
+
+    <!--Day 1 -->
+
+    <h1>Day 1 : HTML Basics + Structure</h1>
+    <h2>Name : Abdul Sami Shaikh</h2>
+    <p>Bio : I am Studying at ASM CSIT College</p>
+    <p>Age : 20</p>
+    <p>Email Address : abdulsamishaikh232@gmail.com</p>
+    <h3>2. Journal page</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem animi qui soluta ducimus vitae quae, saepe accusantium. Nihil aperiam exercitationem deleniti dolorum, accusamus odio ipsam! Pariatur nostrum ad repellendus perspiciatis.</p>
+    <h3>3. Motivational Quote page</h3>
+    <h1>JUST DO IT!!</h1>
+
+    <br><hr><br>
+    <!--Day 2 -->
+
+    <h1>Day 2 : Text Formatting</h1>
+    <h3>1. Maths Formula</h3>
+    <p>a<sup>2</sup> - b<sup>2</sup> = (a-b)(a+b)</p>
+    <h3>2. Mini CV</h3>
+    <p>Abdul Sami A Shaikh</p>
+    <h4>Skills</h4>
+    <ol>
+        <li><b>None</b></li>
+        <li><b>None</b></li>
+        <li><b>None</b></li>
+    </ol>
+    <h3>3. Fun Facts </h3>
+    <p><b>Cold Water</b> feels <i>warm</i> when your hands are <i>freezing.</i></p>
+
+    <br><hr><br>
+    <!--Day 3 -->
+
+    <h1>Day 3 : Links & Images</h1>
+    <h3>1. My Socials</h3>
+    <a href="https://github.com/abdulsami-94">Github</a>    <br>
+    <a href="social.html">Instagram</a> <br>
+    <a href="social.html">Snapchat</a>  <br>
+    <h3>2. Photo Card</h3>
+    <img src="spidy.png" height="150" alt="spidy">
+    <h3>3. Clickable Images</h3>
+    <a href="file.txt" target="_blank"><img src="japan.jpeg" height="100" alt="japan"></a>
+    <a href="file.txt" target="_blank"><img src="itachi.webp" height="100" alt="itachi"></a>
+    <a href="file.txt" target="_blank"><img src="hand.jpg" height="100" alt="hand"></a>
+    
+    <br><hr><br>
+    <!--Day 4 -->
+
+    <h1>Day 4 : Lists</h1>
+    <h3>1. Weekly TO-DO List:</h3>
+    <ul>
+        <li>Monday - Study</li>
+        <li>Tuesday - Sleep</li>
+        <li>Wednesday - Sleep</li>
+        <li>Thursday - Sleep</li>
+        <li>Friday - Sleep</li>
+        <li>Saturday - Sleep</li>
+        <li>Sunday - Sleep</li>
+    </ul>
+    <h3>2. Top Five Favoruite Movies:</h3>
+    <ol>
+        <li>THE BATMAN BEGINS.</li>
+        <li>GOD FATHER.</li>
+        <li>INTERSTELLER.</li>
+        <li>OPPENHEIMER.</li>
+        <li>THE SHAWSHANK REDEMTION.</li>
+    </ol>
+    <h3>3. Resturant Menu:</h3>
+    <ol>
+        <li><b>Starter</b></li>
+            <ul>
+                <li>Paneer Tikka</li>
+                <li>Chicken Malai Tikka</li>
+                <li>Vag Samosa</li>
+                <li>Hara Bhara Kebab</li>
+                <li>Mutton Seekh Kebab</li>
+            </ul>
+        <li><b>Mains</b></li>
+            <ul>
+                <li>Hyderabadi Chicken Biryani</li>
+                <li>Luchnowi Mutton Biryani</li>
+                <li>Paneer Butter Masala</li>
+                <li>Butter Naan</li>
+                <li>Fish Curry</li>
+            </ul>
+        <li><b>Desserts</b></li>
+            <ul>
+                <li>Gulab Jamun</li>
+                <li>Rasgulla</li>
+                <li>Kheer</li>
+                <li>Jalebi with Rabri</li>
+                <li>Kulfi Falooda</li>
+            </ul>
+    </ol>
+
+    <br><hr><br>
+    <!--Day 5 -->
+
+    <h1>Day 5 : Tables</h1>
+    <h3>1. College Timetable</h3>
+    <table>
+        <caption><b>FIELD PROJECT</b></caption>
+        <tr>
+            <th>Sr.No</th>
+            <th>Activity</th>
+            <th>Deadline Date</th>
+        </tr>
+        <tr>
+            <td>1. </td>
+            <td>Submission of Project Name list</td>
+            <td>21/07/2025</td>
+        </tr>
+        <tr>
+            <td>2. </td>
+            <td>Submission of topic field list</td>
+            <td>31/07/2025</td>
+        </tr>
+        <tr>
+            <td>3. </td>
+            <td>Discussion and Finalization</td>
+            <td>14/08/2025</td>
+        </tr>
+        <tr>
+            <td>4. </td>
+            <td>Meeting with Guide & show</td>
+            <td>18/09/2025</td>
+        </tr>
+        <tr>
+            <td>5. </td>
+            <td>Preparation of Report</td>
+            <td>09/10/2025</td>
+        </tr>
+    </table>
+<br><br>
+<h3>2. MarksSheet</h3>
+    <table>
+        <tr>
+            <th>Sr.No</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>1. </td>
+            <td>English</td>
+            <td>61</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>2. </td>
+            <td>Maths</td>
+            <td>35</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>3. </td>
+            <td>Physics</td>
+            <td>46</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>4. </td>
+            <td>Chemistry</td>
+            <td>40</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>5. </td>
+            <td>Biology</td>
+            <td>51</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>6. </td>
+            <td>IT</td>
+            <td>90</td>
+            <td>A+</td>
+        </tr>
+
+    </table>
+<br><br>
+    <h3>3. Pricing Table</h3>
+    <table>
+        <tr>
+            <th>Plan</th>
+            <th>Features</th>
+            <th>Price(per month)</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>5GB Cloud Storage</td>
+            <td>$499</td>
+        </tr>
+        <tr>
+            <td>Pro</td>
+            <td>50GB Cloud Storage</td>
+            <td>$999</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>Unlimited Cloud Storage</td>
+            <td>$1999</td>
+        </tr>
+    </table>
+
+    <br><hr><br>
+    <!--Day 6 -->
+
+    <h1>Day 6 : Forms Basics</h1>
+    <h3>1. Login Form</h3>
+    <form action="">
+        <label for="user">User ID:</label>
+        <input type="name" name="user" placeholder="Enter you user id"><br><br>
+        <label for="">Password:</label>
+        <input type="password" name="password" placeholder="password"><br><br>
+        <button type="submit">Login</button>
+    </form>
+
+    <h3>2. Feedback form</h3>
+    <form action="">
+        <label for="">Name:</label>
+        <input type="name" placeholder="Enter your name"><br><br>
+        <lable>Email:</lable>
+        <input type="email" placeholder="Enter your email"><br><br>
+        <lable>Feedback:</lable>
+        <textarea rows="4" cols="30"></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>3. Newsletter Subscription Form</h3>
+    <form action="">
+        <lable>Email:</lable>
+        <input type="email" placeholder="Enter your email"><br><br>
+        <lable>Name:</lable>
+        <input type="name" placeholder="Enter your name"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <br><hr><br>
+    <!--Day 7 -->
+
+    <h1>Day 7 : Forms Advanced</h1>
+    <h3>1. Pizza Order Form</h3>
+    <form action="">
+        <lable>Name:</lable>
+            <input type="name" ><br><br>
+        <lable>Number:</lable>
+            <input type="tel"><br><br>
+        <lable>Address:</lable>
+            <textarea rows="4" cols="30"></textarea><br>
+
+        <h4>Size</h4>
+        <label>
+            <input type="radio" name="size" value="small"> Small
+        </label>
+        <label>
+            <input type="radio" name="size" value="medium"> Medium
+        </label>
+        <label>
+            <input type="radio" name="size" value="Large"> Large
+        </label><br><br>
+        <h4>Crust</h4>
+        <select name="topic" id="">
+            <option value="thin">Thin</option>
+            <option value="Regular">Regular</option>
+            <option value="Cheese">Cheese</option>
+        </select>
+        <h4>Payment Method</h4>
+         <label>
+            <input type="radio" name="pay" value="cod"> COD
+        </label>
+        <label>
+            <input type="radio" name="pay" value="online"> Online
+        </label>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>2. College Admission Form</h3>
+        <label>Name:</label>
+            <input type="name"><br><br>
+        <lable>Date of Birth:</lable>
+        <input type="date" placeholder="DOB"><br><br>
+        <label>
+            <input type="radio" name="gender" value="male">Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">Female
+        </label>
+        <br><br>
+        <lable>Nationality:</lable>
+        <input type="text"><br><br>
+
+        <lable>Address:</lable>
+        <textarea rows="4" cols="30"></textarea><br><br>
+        <lable>Telephone:</lable>
+        <input type="tel" min="1" max="10" placeholder="1234567890"><br><br>
+        <label for="">Email:</label>
+        <input type="email" placeholder="someone@gmail.com"><br><br>
+        <label for="">Cource: </label>
+        <select >
+            <option value="BCA">BCA</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BSC">BSC</option>
+            <option value="BBA">BBA</option>
+        </select><br><br>
+        <button type="submit">Apply Now</button>
+
+        <h3>3. Feedback Form</h3>
+        <form action="">
+            <label>Name:</label>
+            <input type="name" placeholder="someone"><br><br>
+            <label>Email: </label>
+            <input type="email" placeholder="someone@mail.com"><br><br>
+            <h4>Your Exprence</h4>
+            <label>
+                <input type="radio" name="exp" value="excellent">Excellent
+            </label>
+            <label>
+                <input type="radio" name="exp" value="good">Good
+            </label>
+            <label>
+                <input type="radio" name="exp" value="average">Average
+            </label>
+            <label>
+                <input type="radio" name="exp" value="poor">Poor
+            </label>
+            <br><br>
+            <h4>What did you liked??</h4>
+            <label>
+                <input type="checkbox" name="hobby" value="">Campus
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="">Lobby
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="">Teachers
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="">Facuilty
+            </label><br><br>
+
+            <input type="text" placeholder="Any suggestion or comments?"><br><br>
+            <h4>Would you recommend us?</h4>
+            <label>
+                <input type="radio" name="option" value="yes"> Yes 
+            </label>
+            <label>
+                <input type="radio" name="option" value="no"> No 
+            </label><br><br>
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <br><hr><br>
+
+        <h1>Day 8 : Semantic Tags</h1>
+
+        <h3>1. Blog Post Using article tag</h3>
+        <article><h2>Blog Post</h2>
+            <h4>#blog #fyp</h4>
+            <p>Author: James Clear</p>
+            <p>21/06/2009</p>
+            <img src="bloghero.JPG" height="200" alt="bloghero">
+            <h3>Introduction</h3>
+            <p>React is an open source, JavaScript library for developing user interface (UI) in web
+                application.</p>
+
+            <h4>Audience</h4>
+            <p>This tutorial is prepared for professionals who are aspiring to make a career in the field of
+                developing front-end web application.</p>
+            <h4>Prerequisites</h4>
+            <p>Before proceeding with the various types of concepts given in this tutorial, we assume that
+                the readers have the basic knowledge in HTML, CSS and OOPS concepts.</p>
+
+                <h4>Conclusion</h4>
+                <p>&latail; Copyright 2021 by Tutorials Point (I) Pvt. Ltd.
+                    All the content and graphics published in this e-book are the property of Tutorials Point (I)
+                    Pvt.</p>
+        
+        </article><br><br>
+
+        <h3>2. Basic Webpage Layout</h3>
+        <p>Note: It has been done but there are no visible changes -_-.</p>
+
+        <h3>3. News Card</h3>
+        <section>
+            This is Section.
+            <aside>This is aside</aside>
+        </section>
+
+        <br><hr><br>
+
+        <h1>Day 9 : Media</h1>
+        <h3>1. Video Player</h3>
+        <video src="david.MP4" controls width="400"></video><br>
+
+        <h3>2. Audio Player</h3>
+        <audio src="allgirl.mp3" controls></audio><br>
+
+        <h3>3. Movie Trailer </h3>
+        <h4>IMAGE</h4>
+        <img src="movimg.jpg" height="250" alt="movie image"><br><br>
+        <h4>VIDEO</h4>
+        <video src="car.mp4" controls width="400"></video>
+
+        <br><hr><br>
+
+        <h1>Day 10 : Forms Deep Dive</h1>
+        <h3>1. File Upload</h3>
+        <lable>Upload your resume:</lable><br><br>
+        <input type="file"><br>
+
+        <h3>2. Profile Creation</h3>
+        <form action="">
+            <label for="">Name:</label>
+                <input type="name"><br><br>
+            <label>Email:</label>
+                <input type="email"><br><br>
+            <lable>Upload Profile Pic:</lable>
+            <input type="file"><br><br>
+                <button type="submit">Login</button>
+        </form>
+
+        <h3>3. Contact us</h3>
+        <lable>Name:</lable>
+            <input type="text"><br><br>
+        <lable>Email:</lable>
+            <input type="mail"><br><br>
+        <label>Opinion:</label>
+            <textarea rows="2" cols="30"></textarea><br><br>
+        <label>Attachment:</label>
+            <input type="file"><br><br>
+        <button type="submit">Submit</button>
+
+        <br><hr><br>
+
+        <h1>Day 11 : Metadata</h1>
+
+    <h3>1. Add Favicon to the site.</h3>
+    <p>Look Near the URL for the ICON.</p><br>
+
+    <h3>2. Mobile-Friendly Meta Tag.</h3>
+    <p>Added but there is no visible chanes in the site.</p><br>
+
+    <h3>3. Optimise Blog with Discription and Keywords.</h3>
+    <p>Added but there is no visible chanes in the site.</p>
+
+    <br><hr><br>
+
+    <h1>Day 12 : iFrames</h1>
+
+    <h3>1. Youtube Video</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eRsO2b3_QpM?si=VketHEzB9O9VWbt7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>2.Google Maps Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400402283314!2d78.0395672742844!3d27.175149548765308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1757168296045!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h3>3. Favourite Websites</h3>
+        <iframe src="https://en.wikipedia.org/wiki/Main_Page" width="600" height="450" frameborder="0"></iframe>
+
+    <br><hr><br>
+
+    <h1>Day 13 : Forms Validation (Basic HTML)</h1>
+        <h3>1. Form with required details.</h3>
+        <form action="">
+            <label>Email ID:</label>
+            <input type="email" required><br><br>
+            <label>Password</label>
+            <input type="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+
+        <h3>2. Age Restriction (18+)</h3>
+        <form action="">
+            <label>Name:</label>
+            <input type="text" required><br><br>
+            <label>Age</label>
+            <input type="number" name="age" min="18" max="60"><br><br>
+            <lable>ZipCode:</lable>
+            <input type="text" name="Zipcode" pattern="(0-9) {6}" placeholder="6-digit pin"><br><br>
+            <button type="submit">Login</button>
+        </form>
+
+        <h3>3. Sign up page with pattern validation</h3>
+        <form action="">
+            <label>Email ID:</label>
+            <input type="email" required><br><br>
+            <label>Password</label>
+            <input type="password" required><br><br>
+            <lable>Passcode:</lable>
+            <input type="text" name="Zipcode" pattern="(0-9) {6}" placeholder="6-digit pin"><br><br>
+            <button type="submit">Login</button>
+        </form>
+
+        <br><hr><br>
+
+        <h1>Day 14 : Accessibility</h1>
+        <h3>1. Accessible Form</h3>
+        <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true">
+            <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required aria-required="true">
+        <br><br>
+        <button type="submit">Submit</button>
+        </form>
+
+
+
+        <h3>2. Gallery With Alt</h3>
+        <section aria-label="Travel Photo Gallery">
+            <img src="paris.jpg" alt="Eiffel Tower at night with lights glowing">
+            <img src="beach.jpg" alt="Sunny beach with palm trees and blue waves">
+          <img src="mountain.jpg" alt="Snow-covered mountain peak under clear sky">
+        </section>
+
+
+        <h3>3. Keyboard Navigation</h3>
+        <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+
+
+    </body>
+</html>
+
