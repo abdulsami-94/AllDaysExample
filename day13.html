@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 13</title>
+</head>
+<body>
+    <h1>Day 13 : Forms Validation (Basic HTML)</h1>
+        <h3>1. Form with required details.</h3>
+        <form action="">
+            <label>Email ID:</label>
+            <input type="email" required><br><br>
+            <label>Password</label>
+            <input type="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+
+        <h3>2. Age Restriction (18+)</h3>
+        <form action="">
+            <label>Name:</label>
+            <input type="text" required><br><br>
+            <label>Age</label>
+            <input type="number" name="age" min="18" max="60"><br><br>
+            <lable>ZipCode:</lable>
+            <input type="text" name="Zipcode" pattern="(0-9) {6}" placeholder="6-digit pin"><br><br>
+            <button type="submit">Login</button>
+        </form>
+
+        <h3>3. Sign up page with pattern validation</h3>
+        <form action="">
+            <label>Email ID:</label>
+            <input type="email" required><br><br>
+            <label>Password</label>
+            <input type="password" required><br><br>
+            <lable>Passcode:</lable>
+            <input type="text" name="Zipcode" pattern="(0-9) {6}" placeholder="6-digit pin"><br><br>
+            <button type="submit">Login</button>
+        </form>
+
+        <br><hr><br>
+</body>
+</html>
